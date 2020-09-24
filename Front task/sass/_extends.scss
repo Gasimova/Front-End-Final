@@ -1,0 +1,206 @@
+%headerextend{
+  .header {
+    background: rgba(48, 32, 87, 0.7);
+    position: fixed;
+    width: 100%;
+    z-index: 111;
+    .col-lg-12 {
+      .navbar {
+        padding: 0px 0px;
+        .navbar-brand {
+          img {
+            margin-left: 35px;
+          }
+        }
+  
+        .collapse {
+          justify-content: flex-end;
+          .navbar-nav {
+            margin-right: 0px !important;
+            .nav-item {
+              margin-right: 30px;
+              .nav-link {
+                color: white;
+                padding: 30px 0px;
+                position: relative;
+                i {
+                  font-size: 12px;
+                  margin-left: 6px;
+                }
+              }
+  
+              .dropdown-menu {
+                width: 18%;
+                position: absolute;
+                top: 73px;
+                cursor: pointer;
+                margin-left: 32%;
+  
+                .dropdown-item {
+                  color: #676464 !important;
+                  text-transform: capitalize;
+                  font-size: 14px;
+                  position: relative;
+                  &:hover {
+                    background-color: unset;
+                    color: black !important;
+                  }
+  
+                  i {
+                    position: absolute;
+                    right: 6px;
+                    color: #7f7c7c !important;
+                    font-size: 10px;
+                  }
+                  .innermenu {
+                    background-color: white;
+                    position: absolute;
+                    left: 154px;
+                    width: 170px;
+                    height: 100px;
+                    top: 3px;
+                    border-radius: 5px;
+                    z-index: 50;
+                    display: none;
+                    span {
+                      display: block;
+                      margin-top: 10px;
+                      margin-bottom: 5px;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+        .btn {
+          margin-right: 74px;
+          padding: 0.625rem 1.25rem;
+          background-color: white;
+          border: none;
+          border-radius: 25px;
+          color: $textcolor;
+          letter-spacing: 0.025em;
+          font-size: $fontsize;
+          font-weight: 600;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+
+%direclistfooterextend{
+  #direclistfooter {
+    background-color: $textcolor;
+    color: white;
+    padding-bottom: 47px;
+    .itemText {
+      padding-top: 70px;
+      padding-left: 33px;
+      img {
+        margin-bottom: 30px;
+      }
+      p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.7;
+        margin-right: 55px;
+      }
+      span {
+        display: block;
+      }
+    }
+  
+    .footerIcon {
+      color: #66676b;
+      i {
+        background-color: white;
+        margin-left: 34px;
+        padding: 11px;
+        margin-right: -32px;
+        margin-top: 30px;
+        border-radius: 4px;
+      }
+    }
+  
+    .footerlists {
+      margin-top: 72px;
+      margin-left: -46px;
+      span {
+        font-size: 14px;
+        margin-bottom: 9px;
+        display: block;
+        i {
+          font-size: 12px;
+          margin-right: 5px;
+          color: #f3ededa1;
+        }
+      }
+    }
+  
+    .copyright {
+      position: relative;
+      p {
+        margin-top: 103px;
+        margin-left: 400px;
+  
+        &::before {
+          content: "";
+          position: absolute;
+          left: 10%;
+          top: -35px;
+          width: 80%;
+          height: 1px;
+          background-color: #b1adad85;
+        }
+      }
+    }
+  }
+}
+  
+
+%titlebarextend{
+  #titleBar {
+    background-image: url(../img/title-bar.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+  
+    &::after{
+      content: "";
+      position: absolute;
+      height: 400px;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      background: rgba(0,0,0,.6);
+    }
+    .title {
+      position: absolute;
+      top: 125px;
+      color: white;
+      z-index: 60;
+      h1 {
+        font-size: 32px;
+        font-weight: 700;
+      }
+      p {
+        font-size: 16px;
+        font-weight: 400;
+      }
+    }
+    .breadcrumb {
+      background-color: unset;
+      position: absolute;
+      top: 140px;
+      right: 100px;
+      color: white;
+      z-index: 60;
+      span {
+        margin-right: 10px;
+      }
+    }
+  }
+}

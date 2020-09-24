@@ -1,0 +1,1396 @@
+#sideBarPage .yellow {
+  color: orange; }
+#sideBarPage .blue {
+  background-color: #5e72e4;
+  color: white;
+  border: none; }
+#sideBarPage #listsection {
+  padding-top: 100px; }
+  #sideBarPage #listsection .listbuttons i {
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+    padding: 13px;
+    border-radius: 50%;
+    color: #5e72e4;
+    margin-bottom: 25px;
+    margin-left: 16px; }
+  #sideBarPage #listsection button {
+    box-shadow: 0 1px 3px rgba(50, 50, 93, 0.15), 0 1px 0 rgba(0, 0, 0, 0.02);
+    border: 0;
+    transition: box-shadow 0.15s ease;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #525f7f9c;
+    text-align: left;
+    background-color: unset;
+    position: absolute;
+    right: 15px;
+    padding: 12px 40px;
+    top: 3px;
+    font-weight: 500;
+    font-size: 12px; }
+    #sideBarPage #listsection button i {
+      position: absolute;
+      right: 10px;
+      top: 15px; }
+  #sideBarPage #listsection .mainListItem {
+    margin-bottom: 20px;
+    box-shadow: 0 1px 3px rgba(50, 50, 93, 0.15), 0 1px 0 rgba(0, 0, 0, 0.02);
+    display: flex; }
+    #sideBarPage #listsection .mainListItem:hover {
+      transform: translateX(10px);
+      transition: all 0.2s linear; }
+    #sideBarPage #listsection .mainListItem .listitem img {
+      width: 200px;
+      height: 200px; }
+    #sideBarPage #listsection .mainListItem .listicons {
+      margin-left: 46px;
+      margin-top: 38px; }
+      #sideBarPage #listsection .mainListItem .listicons i {
+        margin-right: 1px;
+        font-size: 11px; }
+    #sideBarPage #listsection .mainListItem .listContent span {
+      display: block;
+      color: #808080;
+      font-size: 12px;
+      margin-left: 50px;
+      margin-top: 5px; }
+    #sideBarPage #listsection .mainListItem .listContent h2 {
+      margin-left: 45px;
+      font-size: 14px;
+      font-weight: 700;
+      margin-top: 11px; }
+    #sideBarPage #listsection .mainListItem .listContent p {
+      color: #808080;
+      font-size: 16px;
+      margin-left: 45px; }
+    #sideBarPage #listsection .mainListItem .listContent h3 {
+      font-size: 10px;
+      padding: 5px 8px;
+      background-color: rgba(203, 210, 246, 0.5);
+      color: gray;
+      display: inline-block;
+      margin-left: 45px;
+      border-radius: 14px; }
+    #sideBarPage #listsection .mainListItem .listContent h4 {
+      font-size: 10px;
+      padding: 5px 8px;
+      color: #1aae6f;
+      background-color: rgba(147, 231, 195, 0.5);
+      display: inline-block;
+      position: absolute;
+      top: 112px;
+      right: 40px;
+      border-radius: 14px; }
+  #sideBarPage #listsection .mainSideBar .rightside input {
+    padding: 11px 40px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(50, 50, 93, 0.15), 0 1px 0 rgba(0, 0, 0, 0.02);
+    display: block;
+    margin-left: 20px;
+    margin-bottom: 27px; }
+  #sideBarPage #listsection .mainSideBar .rightside i {
+    position: absolute;
+    top: 88px;
+    right: 120px; }
+  #sideBarPage #listsection .mainSideBar .rightside a {
+    color: #fff;
+    background-color: #5e72e4;
+    border-color: #5e72e4;
+    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+    padding: 12px 20px;
+    border-radius: 7px;
+    font-size: 13px;
+    letter-spacing: 1px;
+    position: absolute;
+    top: 177px;
+    left: 20px; }
+  #sideBarPage #listsection .mainSideBar .offerscard {
+    background: linear-gradient(87deg, #fb6340 0, #fbb140 100%) !important;
+    margin-left: 26px;
+    width: 250px;
+    height: 315px;
+    position: absolute;
+    right: -113%;
+    top: 140px;
+    border-radius: 5px;
+    text-align: center;
+    color: white; }
+    #sideBarPage #listsection .mainSideBar .offerscard img {
+      padding: 30px; }
+    #sideBarPage #listsection .mainSideBar .offerscard input {
+      padding: 9px 3px;
+      border: none;
+      border-radius: 5px;
+      margin-bottom: 30px; }
+    #sideBarPage #listsection .mainSideBar .offerscard a {
+      background-color: #5e72e4;
+      padding: 11px 16px;
+      border-radius: 6px; }
+  #sideBarPage #listsection .numbers {
+    padding-bottom: 95px;
+    padding-top: 30px; }
+    #sideBarPage #listsection .numbers span {
+      border: .0625rem solid #dee2e6;
+      padding: 6px 13px;
+      border-radius: 50%;
+      color: #525f7f;
+      margin-right: 5px; }
+      #sideBarPage #listsection .numbers span:hover {
+        background-color: #dee2e6; }
+      #sideBarPage #listsection .numbers span i {
+        font-size: 11px; }
+
+#sideBarPage .header, #homePage .header, #pricingPage .header, #blog .header {
+  background: rgba(48, 32, 87, 0.7);
+  position: fixed;
+  width: 100%;
+  z-index: 111; }
+  #sideBarPage .header .col-lg-12 .navbar, #homePage .header .col-lg-12 .navbar, #pricingPage .header .col-lg-12 .navbar, #blog .header .col-lg-12 .navbar {
+    padding: 0px 0px; }
+    #sideBarPage .header .col-lg-12 .navbar .navbar-brand img, #homePage .header .col-lg-12 .navbar .navbar-brand img, #pricingPage .header .col-lg-12 .navbar .navbar-brand img, #blog .header .col-lg-12 .navbar .navbar-brand img {
+      margin-left: 35px; }
+    #sideBarPage .header .col-lg-12 .navbar .collapse, #homePage .header .col-lg-12 .navbar .collapse, #pricingPage .header .col-lg-12 .navbar .collapse, #blog .header .col-lg-12 .navbar .collapse {
+      justify-content: flex-end; }
+      #sideBarPage .header .col-lg-12 .navbar .collapse .navbar-nav, #homePage .header .col-lg-12 .navbar .collapse .navbar-nav, #pricingPage .header .col-lg-12 .navbar .collapse .navbar-nav, #blog .header .col-lg-12 .navbar .collapse .navbar-nav {
+        margin-right: 0px !important; }
+        #sideBarPage .header .col-lg-12 .navbar .collapse .navbar-nav .nav-item, #homePage .header .col-lg-12 .navbar .collapse .navbar-nav .nav-item, #pricingPage .header .col-lg-12 .navbar .collapse .navbar-nav .nav-item, #blog .header .col-lg-12 .navbar .collapse .navbar-nav .nav-item {
+          margin-right: 30px; }
+          #sideBarPage .header .col-lg-12 .navbar .collapse .navbar-nav .nav-item .nav-link, #homePage .header .col-lg-12 .navbar .collapse .navbar-nav .nav-item .nav-link, #pricingPage .header .col-lg-12 .navbar .collapse .navbar-nav .nav-item .nav-link, #blog .header .col-lg-12 .navbar .collapse .navbar-nav .nav-item .nav-link {
+            color: white;
+            padding: 30px 0px;
+            position: relative; }
+            #sideBarPage .header .col-lg-12 .navbar .collapse .navbar-nav .nav-item .nav-link i, #homePage .header .col-lg-12 .navbar .collapse .navbar-nav .nav-item .nav-link i, #pricingPage .header .col-lg-12 .navbar .collapse .navbar-nav .nav-item .nav-link i, #blog .header .col-lg-12 .navbar .collapse .navbar-nav .nav-item .nav-link i {
+              font-size: 12px;
+              margin-left: 6px; }
+          #sideBarPage .header .col-lg-12 .navbar .collapse .navbar-nav .nav-item .dropdown-menu, #homePage .header .col-lg-12 .navbar .collapse .navbar-nav .nav-item .dropdown-menu, #pricingPage .header .col-lg-12 .navbar .collapse .navbar-nav .nav-item .dropdown-menu, #blog .header .col-lg-12 .navbar .collapse .navbar-nav .nav-item .dropdown-menu {
+            width: 18%;
+            position: absolute;
+            top: 73px;
+            cursor: pointer;
+            margin-left: 32%; }
+            #sideBarPage .header .col-lg-12 .navbar .collapse .navbar-nav .nav-item .dropdown-menu .dropdown-item, #homePage .header .col-lg-12 .navbar .collapse .navbar-nav .nav-item .dropdown-menu .dropdown-item, #pricingPage .header .col-lg-12 .navbar .collapse .navbar-nav .nav-item .dropdown-menu .dropdown-item, #blog .header .col-lg-12 .navbar .collapse .navbar-nav .nav-item .dropdown-menu .dropdown-item {
+              color: #676464 !important;
+              text-transform: capitalize;
+              font-size: 14px;
+              position: relative; }
+              #sideBarPage .header .col-lg-12 .navbar .collapse .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover, #homePage .header .col-lg-12 .navbar .collapse .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover, #pricingPage .header .col-lg-12 .navbar .collapse .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover, #blog .header .col-lg-12 .navbar .collapse .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover {
+                background-color: unset;
+                color: black !important; }
+              #sideBarPage .header .col-lg-12 .navbar .collapse .navbar-nav .nav-item .dropdown-menu .dropdown-item i, #homePage .header .col-lg-12 .navbar .collapse .navbar-nav .nav-item .dropdown-menu .dropdown-item i, #pricingPage .header .col-lg-12 .navbar .collapse .navbar-nav .nav-item .dropdown-menu .dropdown-item i, #blog .header .col-lg-12 .navbar .collapse .navbar-nav .nav-item .dropdown-menu .dropdown-item i {
+                position: absolute;
+                right: 6px;
+                color: #7f7c7c !important;
+                font-size: 10px; }
+              #sideBarPage .header .col-lg-12 .navbar .collapse .navbar-nav .nav-item .dropdown-menu .dropdown-item .innermenu, #homePage .header .col-lg-12 .navbar .collapse .navbar-nav .nav-item .dropdown-menu .dropdown-item .innermenu, #pricingPage .header .col-lg-12 .navbar .collapse .navbar-nav .nav-item .dropdown-menu .dropdown-item .innermenu, #blog .header .col-lg-12 .navbar .collapse .navbar-nav .nav-item .dropdown-menu .dropdown-item .innermenu {
+                background-color: white;
+                position: absolute;
+                left: 154px;
+                width: 170px;
+                height: 100px;
+                top: 3px;
+                border-radius: 5px;
+                z-index: 50;
+                display: none; }
+                #sideBarPage .header .col-lg-12 .navbar .collapse .navbar-nav .nav-item .dropdown-menu .dropdown-item .innermenu span, #homePage .header .col-lg-12 .navbar .collapse .navbar-nav .nav-item .dropdown-menu .dropdown-item .innermenu span, #pricingPage .header .col-lg-12 .navbar .collapse .navbar-nav .nav-item .dropdown-menu .dropdown-item .innermenu span, #blog .header .col-lg-12 .navbar .collapse .navbar-nav .nav-item .dropdown-menu .dropdown-item .innermenu span {
+                  display: block;
+                  margin-top: 10px;
+                  margin-bottom: 5px; }
+    #sideBarPage .header .col-lg-12 .navbar .btn, #homePage .header .col-lg-12 .navbar .btn, #pricingPage .header .col-lg-12 .navbar .btn, #blog .header .col-lg-12 .navbar .btn {
+      margin-right: 74px;
+      padding: 0.625rem 1.25rem;
+      background-color: white;
+      border: none;
+      border-radius: 25px;
+      color: #5e72e4;
+      letter-spacing: 0.025em;
+      font-size: 14px;
+      font-weight: 600;
+      cursor: pointer; }
+
+#sideBarPage #direclistfooter, #homePage #direclistfooter, #pricingPage #direclistfooter, #blog #direclistfooter {
+  background-color: #5e72e4;
+  color: white;
+  padding-bottom: 47px; }
+  #sideBarPage #direclistfooter .itemText, #homePage #direclistfooter .itemText, #pricingPage #direclistfooter .itemText, #blog #direclistfooter .itemText {
+    padding-top: 70px;
+    padding-left: 33px; }
+    #sideBarPage #direclistfooter .itemText img, #homePage #direclistfooter .itemText img, #pricingPage #direclistfooter .itemText img, #blog #direclistfooter .itemText img {
+      margin-bottom: 30px; }
+    #sideBarPage #direclistfooter .itemText p, #homePage #direclistfooter .itemText p, #pricingPage #direclistfooter .itemText p, #blog #direclistfooter .itemText p {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 1.7;
+      margin-right: 55px; }
+    #sideBarPage #direclistfooter .itemText span, #homePage #direclistfooter .itemText span, #pricingPage #direclistfooter .itemText span, #blog #direclistfooter .itemText span {
+      display: block; }
+  #sideBarPage #direclistfooter .footerIcon, #homePage #direclistfooter .footerIcon, #pricingPage #direclistfooter .footerIcon, #blog #direclistfooter .footerIcon {
+    color: #66676b; }
+    #sideBarPage #direclistfooter .footerIcon i, #homePage #direclistfooter .footerIcon i, #pricingPage #direclistfooter .footerIcon i, #blog #direclistfooter .footerIcon i {
+      background-color: white;
+      margin-left: 34px;
+      padding: 11px;
+      margin-right: -32px;
+      margin-top: 30px;
+      border-radius: 4px; }
+  #sideBarPage #direclistfooter .footerlists, #homePage #direclistfooter .footerlists, #pricingPage #direclistfooter .footerlists, #blog #direclistfooter .footerlists {
+    margin-top: 72px;
+    margin-left: -46px; }
+    #sideBarPage #direclistfooter .footerlists span, #homePage #direclistfooter .footerlists span, #pricingPage #direclistfooter .footerlists span, #blog #direclistfooter .footerlists span {
+      font-size: 14px;
+      margin-bottom: 9px;
+      display: block; }
+      #sideBarPage #direclistfooter .footerlists span i, #homePage #direclistfooter .footerlists span i, #pricingPage #direclistfooter .footerlists span i, #blog #direclistfooter .footerlists span i {
+        font-size: 12px;
+        margin-right: 5px;
+        color: #f3ededa1; }
+  #sideBarPage #direclistfooter .copyright, #homePage #direclistfooter .copyright, #pricingPage #direclistfooter .copyright, #blog #direclistfooter .copyright {
+    position: relative; }
+    #sideBarPage #direclistfooter .copyright p, #homePage #direclistfooter .copyright p, #pricingPage #direclistfooter .copyright p, #blog #direclistfooter .copyright p {
+      margin-top: 103px;
+      margin-left: 400px; }
+      #sideBarPage #direclistfooter .copyright p::before, #homePage #direclistfooter .copyright p::before, #pricingPage #direclistfooter .copyright p::before, #blog #direclistfooter .copyright p::before {
+        content: "";
+        position: absolute;
+        left: 10%;
+        top: -35px;
+        width: 80%;
+        height: 1px;
+        background-color: #b1adad85; }
+
+#sideBarPage #titleBar, #pricingPage #titleBar, #blog #titleBar {
+  background-image: url(../img/title-bar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px; }
+  #sideBarPage #titleBar::after, #pricingPage #titleBar::after, #blog #titleBar::after {
+    content: "";
+    position: absolute;
+    height: 400px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.6); }
+  #sideBarPage #titleBar .title, #pricingPage #titleBar .title, #blog #titleBar .title {
+    position: absolute;
+    top: 125px;
+    color: white;
+    z-index: 60; }
+    #sideBarPage #titleBar .title h1, #pricingPage #titleBar .title h1, #blog #titleBar .title h1 {
+      font-size: 32px;
+      font-weight: 700; }
+    #sideBarPage #titleBar .title p, #pricingPage #titleBar .title p, #blog #titleBar .title p {
+      font-size: 16px;
+      font-weight: 400; }
+  #sideBarPage #titleBar .breadcrumb, #pricingPage #titleBar .breadcrumb, #blog #titleBar .breadcrumb {
+    background-color: unset;
+    position: absolute;
+    top: 140px;
+    right: 100px;
+    color: white;
+    z-index: 60; }
+    #sideBarPage #titleBar .breadcrumb span, #pricingPage #titleBar .breadcrumb span, #blog #titleBar .breadcrumb span {
+      margin-right: 10px; }
+
+#homePage #intro {
+  background-image: url(../img/bgimg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px; }
+  #homePage #intro::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(48, 32, 87, 0.7);
+    height: 700px; }
+  #homePage #intro .col-lg-12 .headings {
+    padding-top: 246px;
+    padding-left: 76px;
+    padding-bottom: 60px; }
+    #homePage #intro .col-lg-12 .headings h1 {
+      color: white;
+      font-size: 44px;
+      font-weight: 700;
+      margin-bottom: 10px; }
+    #homePage #intro .col-lg-12 .headings p {
+      font-weight: 400 !important;
+      font-size: 24px;
+      color: white; }
+  #homePage #intro .col-lg-12 .inputs {
+    width: 760px;
+    height: 65px;
+    background-color: #80808069;
+    border-radius: 28px;
+    margin-left: 74px; }
+    #homePage #intro .col-lg-12 .inputs input {
+      background-color: #ffffff1f;
+      font-size: 12px;
+      border: none;
+      background: 0 0;
+      height: 44px;
+      line-height: 44px;
+      box-shadow: none;
+      color: white !important;
+      width: 150px;
+      line-height: 55px;
+      margin-left: 60px;
+      margin-right: -25px;
+      margin-top: 11px; }
+    #homePage #intro .col-lg-12 .inputs input::placeholder {
+      color: white;
+      font-size: 12px;
+      font-weight: 600; }
+    #homePage #intro .col-lg-12 .inputs button {
+      padding: 17px 35px;
+      border-radius: 20px;
+      border: none;
+      font-size: 11px;
+      font-weight: bold;
+      margin-top: 9px;
+      margin-left: 48px; }
+  #homePage #intro .col-lg-12 .dropmenu {
+    display: none;
+    margin-left: 527px;
+    color: #8898aa;
+    background-color: white;
+    width: 150px;
+    text-decoration: none; }
+    #homePage #intro .col-lg-12 .dropmenu ul {
+      padding-inline-start: 0px !important;
+      list-style-type: none; }
+      #homePage #intro .col-lg-12 .dropmenu ul li {
+        text-decoration: none;
+        cursor: pointer; }
+        #homePage #intro .col-lg-12 .dropmenu ul li:hover {
+          background-color: #569ef7;
+          color: white; }
+  #homePage #intro .circle span:nth-child(1) {
+    background-color: #ffffff0d;
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    top: -5px;
+    left: -37px; }
+  #homePage #intro .circle span:nth-child(2) {
+    background-color: #ffffff0d;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    top: 349px;
+    left: 90px; }
+  #homePage #intro .circle span:nth-child(3) {
+    background-color: #ffffff0d;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    right: 40px;
+    top: 525px; }
+  #homePage #intro .circle span:nth-child(4) {
+    background-color: #ffffff0d;
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    right: 149px;
+    top: 401px; }
+  #homePage #intro .circle span:nth-child(5) {
+    background-color: #ffffff0d;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    right: 124px;
+    top: 354px; }
+  #homePage #intro .circle span:nth-child(6) {
+    background-color: #ffffff0d;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    top: 590px; }
+#homePage #popularCategories .col-lg-12 {
+  padding-left: 0px;
+  padding-right: 0px; }
+  #homePage #popularCategories .col-lg-12 .textofpopular {
+    text-align: center;
+    padding-top: 105px; }
+    #homePage #popularCategories .col-lg-12 .textofpopular h1 {
+      font-size: 35px;
+      color: #32325d;
+      font-weight: 700;
+      margin-bottom: 20px; }
+    #homePage #popularCategories .col-lg-12 .textofpopular p {
+      color: #5e72e4;
+      font-size: 20px;
+      margin-bottom: 60px; }
+  #homePage #popularCategories .col-lg-12 .sliderWrapepr {
+    overflow: hidden;
+    height: 300px; }
+    #homePage #popularCategories .col-lg-12 .sliderWrapepr .owl-carousel {
+      display: flex;
+      width: 100%; }
+      #homePage #popularCategories .col-lg-12 .sliderWrapepr .owl-carousel .owl-stage-outer {
+        overflow: visible; }
+      #homePage #popularCategories .col-lg-12 .sliderWrapepr .owl-carousel .item:hover::before {
+        content: "";
+        background: linear-gradient(-20deg, #5e72e4 0, #21d4fd 100%);
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0.9;
+        width: 100%; }
+      #homePage #popularCategories .col-lg-12 .sliderWrapepr .owl-carousel .item::before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: 9;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        opacity: 0.6;
+        right: 0;
+        transition: all 0.3s ease-in-out 0s;
+        background-image: linear-gradient(to right, #434343 0, #000 100%);
+        background-blend-mode: multiply, multiply; }
+      #homePage #popularCategories .col-lg-12 .sliderWrapepr .owl-carousel .item img {
+        height: 270px;
+        max-width: 100%; }
+      #homePage #popularCategories .col-lg-12 .sliderWrapepr .owl-carousel .item .imgitems1 {
+        position: absolute;
+        top: 83px;
+        left: 110px;
+        color: white;
+        z-index: 30; }
+        #homePage #popularCategories .col-lg-12 .sliderWrapepr .owl-carousel .item .imgitems1 i {
+          margin-left: 39px;
+          font-size: 26px; }
+        #homePage #popularCategories .col-lg-12 .sliderWrapepr .owl-carousel .item .imgitems1 h4 {
+          margin-top: 35px; }
+        #homePage #popularCategories .col-lg-12 .sliderWrapepr .owl-carousel .item .imgitems1 p {
+          margin-left: 17px; }
+      #homePage #popularCategories .col-lg-12 .sliderWrapepr .owl-carousel .item .imgitems2 {
+        position: absolute;
+        top: 83px;
+        left: 110px;
+        color: white;
+        z-index: 30; }
+        #homePage #popularCategories .col-lg-12 .sliderWrapepr .owl-carousel .item .imgitems2 i {
+          margin-left: 39px;
+          font-size: 26px; }
+        #homePage #popularCategories .col-lg-12 .sliderWrapepr .owl-carousel .item .imgitems2 h4 {
+          margin-top: 35px;
+          margin-left: 20px; }
+        #homePage #popularCategories .col-lg-12 .sliderWrapepr .owl-carousel .item .imgitems2 p {
+          margin-left: 17px; }
+      #homePage #popularCategories .col-lg-12 .sliderWrapepr .owl-carousel .item .imgitems3 {
+        position: absolute;
+        top: 83px;
+        left: 110px;
+        color: white;
+        z-index: 30; }
+        #homePage #popularCategories .col-lg-12 .sliderWrapepr .owl-carousel .item .imgitems3 i {
+          margin-left: 39px;
+          font-size: 26px; }
+        #homePage #popularCategories .col-lg-12 .sliderWrapepr .owl-carousel .item .imgitems3 h4 {
+          margin-top: 35px;
+          margin-left: 20px; }
+        #homePage #popularCategories .col-lg-12 .sliderWrapepr .owl-carousel .item .imgitems3 p {
+          margin-left: 17px; }
+      #homePage #popularCategories .col-lg-12 .sliderWrapepr .owl-carousel .item .imgitems4 {
+        position: absolute;
+        top: 83px;
+        left: 110px;
+        color: white;
+        z-index: 30; }
+        #homePage #popularCategories .col-lg-12 .sliderWrapepr .owl-carousel .item .imgitems4 i {
+          margin-left: 39px;
+          font-size: 26px; }
+        #homePage #popularCategories .col-lg-12 .sliderWrapepr .owl-carousel .item .imgitems4 h4 {
+          margin-top: 35px; }
+        #homePage #popularCategories .col-lg-12 .sliderWrapepr .owl-carousel .item .imgitems4 p {
+          margin-left: 17px; }
+      #homePage #popularCategories .col-lg-12 .sliderWrapepr .owl-carousel .item .imgitems5 {
+        position: absolute;
+        top: 83px;
+        left: 110px;
+        color: white;
+        z-index: 30; }
+        #homePage #popularCategories .col-lg-12 .sliderWrapepr .owl-carousel .item .imgitems5 i {
+          margin-left: 39px;
+          font-size: 26px; }
+        #homePage #popularCategories .col-lg-12 .sliderWrapepr .owl-carousel .item .imgitems5 h4 {
+          margin-top: 35px;
+          margin-left: 20px; }
+        #homePage #popularCategories .col-lg-12 .sliderWrapepr .owl-carousel .item .imgitems5 p {
+          margin-left: 17px; }
+      #homePage #popularCategories .col-lg-12 .sliderWrapepr .owl-carousel .item .imgitems6 {
+        position: absolute;
+        top: 83px;
+        left: 110px;
+        color: white;
+        z-index: 30; }
+        #homePage #popularCategories .col-lg-12 .sliderWrapepr .owl-carousel .item .imgitems6 i {
+          margin-left: 39px;
+          font-size: 26px; }
+        #homePage #popularCategories .col-lg-12 .sliderWrapepr .owl-carousel .item .imgitems6 h4 {
+          margin-top: 35px;
+          margin-left: 20px; }
+        #homePage #popularCategories .col-lg-12 .sliderWrapepr .owl-carousel .item .imgitems6 p {
+          margin-left: 17px; }
+    #homePage #popularCategories .col-lg-12 .sliderWrapepr .owl-theme .owl-dots {
+      position: absolute;
+      top: 102%;
+      left: 41%; }
+      #homePage #popularCategories .col-lg-12 .sliderWrapepr .owl-theme .owl-dots .owl-dot span {
+        width: 8px;
+        height: 8px; }
+#homePage #mostVisitedPlaces {
+  padding-top: 110px;
+  margin-top: 111px;
+  text-align: center;
+  background-color: #f4f5f7 !important;
+  height: 700px;
+  position: relative; }
+  #homePage #mostVisitedPlaces .mostvisited {
+    position: relative;
+    color: white; }
+    #homePage #mostVisitedPlaces .mostvisited h1 {
+      font-size: 35px;
+      color: #32325d;
+      font-weight: 700;
+      margin-bottom: 20px; }
+    #homePage #mostVisitedPlaces .mostvisited p {
+      color: #5e72e4;
+      font-size: 20px;
+      margin-bottom: 60px; }
+  #homePage #mostVisitedPlaces .owl-carousel .item {
+    height: 310px;
+    padding: 0px 11px;
+    margin: 0px 0px;
+    overflow: hidden; }
+    #homePage #mostVisitedPlaces .owl-carousel .item img {
+      max-width: 100% !important; }
+    #homePage #mostVisitedPlaces .owl-carousel .item .caferbar {
+      position: absolute;
+      top: 174px;
+      background-color: white;
+      width: 358px;
+      height: 136px;
+      margin-left: 0px; }
+      #homePage #mostVisitedPlaces .owl-carousel .item .caferbar img {
+        width: 70px;
+        position: absolute;
+        top: -37px;
+        left: 45%;
+        background-color: white;
+        border-radius: 50%; }
+      #homePage #mostVisitedPlaces .owl-carousel .item .caferbar .eat {
+        position: absolute;
+        left: 6px;
+        top: 6px;
+        font-weight: bold;
+        font-size: 10px;
+        color: #2643e9;
+        background-color: rgba(203, 210, 246, 0.5);
+        padding: 2px 8px;
+        border-radius: 15px; }
+      #homePage #mostVisitedPlaces .owl-carousel .item .caferbar .open {
+        position: absolute;
+        right: 4px;
+        top: 6px;
+        font-weight: bold;
+        font-size: 10px;
+        color: #2643e9;
+        background-color: rgba(203, 210, 246, 0.5);
+        padding: 2px 8px;
+        border-radius: 15px; }
+      #homePage #mostVisitedPlaces .owl-carousel .item .caferbar h5 {
+        margin-top: 55px;
+        font-size: 14px;
+        font-weight: bolder; }
+      #homePage #mostVisitedPlaces .owl-carousel .item .caferbar p {
+        font-size: 14px;
+        color: #525f7fc2;
+        font-weight: 500; }
+      #homePage #mostVisitedPlaces .owl-carousel .item .caferbar i {
+        position: absolute;
+        top: -170px;
+        color: white;
+        font-size: 17px;
+        background-color: #5e72e4;
+        padding: 10px;
+        border-radius: 50%;
+        right: 7px; }
+#homePage #vacation {
+  background-color: #5e72e4;
+  color: white;
+  padding-top: 110px;
+  text-align: center; }
+  #homePage #vacation .planvacation h1 {
+    font-size: 33px;
+    font-weight: 700;
+    margin-left: 12px; }
+  #homePage #vacation .planvacation p {
+    font-size: 20px;
+    padding: 10px 160px; }
+  #homePage #vacation .interestingplace i {
+    font-size: 26px;
+    background-color: white;
+    color: #5e72e4;
+    padding: 19px;
+    border-radius: 50%; }
+  #homePage #vacation .interestingplace h3 {
+    font-size: 20px;
+    margin-top: 26px;
+    margin-bottom: 26px;
+    font-weight: 700; }
+  #homePage #vacation .interestingplace p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    padding-bottom: 65px; }
+#homePage #amazingteam {
+  padding-bottom: 90px; }
+  #homePage #amazingteam .teamheader {
+    padding-top: 96px;
+    padding-bottom: 70px;
+    text-align: center; }
+    #homePage #amazingteam .teamheader h1 {
+      font-size: 35px;
+      color: #32325d;
+      font-weight: 700; }
+    #homePage #amazingteam .teamheader p {
+      font-size: 18px;
+      color: #8898aa !important;
+      padding: 0px 227px;
+      margin-top: 20px;
+      line-height: 1.7; }
+  #homePage #amazingteam .teamprofile {
+    text-align: center; }
+    #homePage #amazingteam .teamprofile img {
+      width: 182px;
+      height: 182px;
+      border-radius: 50%; }
+    #homePage #amazingteam .teamprofile h1 {
+      font-weight: 700;
+      color: #32325d;
+      font-size: 18px;
+      margin-top: 25px; }
+    #homePage #amazingteam .teamprofile span {
+      color: #8898aa !important;
+      font-size: 14px; }
+    #homePage #amazingteam .teamprofile .icons {
+      margin-top: 14px; }
+      #homePage #amazingteam .teamprofile .icons i {
+        margin-right: 7px;
+        background-color: #2dce89;
+        border-color: #2dce89;
+        color: white;
+        padding: 11px;
+        border-radius: 50%;
+        cursor: pointer; }
+#homePage #recentBlog {
+  background-color: #f4f5f7 !important;
+  padding-bottom: 100px; }
+  #homePage #recentBlog .blogheading {
+    text-align: center;
+    padding-top: 96px;
+    padding-bottom: 80px; }
+    #homePage #recentBlog .blogheading h1 {
+      font-size: 35px;
+      color: #32325d;
+      font-weight: 700; }
+    #homePage #recentBlog .blogheading p {
+      font-size: 18px;
+      color: #5e72e4;
+      padding: 0px 227px;
+      margin-top: 20px;
+      line-height: 1.7; }
+  #homePage #recentBlog .cards .blogCards {
+    box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07) !important; }
+    #homePage #recentBlog .cards .blogCards img {
+      max-width: 100%;
+      height: auto; }
+  #homePage #recentBlog .cards .blogCardsContent {
+    background-color: white;
+    padding-bottom: 30px;
+    box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07) !important; }
+    #homePage #recentBlog .cards .blogCardsContent h1 {
+      padding: 20px;
+      font-size: 20px;
+      font-weight: 700;
+      color: #32325d; }
+    #homePage #recentBlog .cards .blogCardsContent span {
+      font-size: 14px;
+      color: #8898aa !important;
+      padding: 0px 0px 0px 22px; }
+    #homePage #recentBlog .cards .blogCardsContent p {
+      margin-bottom: 1.5rem !important;
+      font-size: 16px;
+      color: #525f7f;
+      padding: 0px 22px;
+      font-weight: 400; }
+    #homePage #recentBlog .cards .blogCardsContent button {
+      color: #fff;
+      background-color: #5e72e4;
+      border-color: #5e72e4;
+      padding: 10px 18px;
+      border: none;
+      border-radius: 5px;
+      margin-left: 22px;
+      font-weight: 500;
+      font-size: 14px; }
+
+@media screen and (max-width: 992px) {
+  #homePage #intro .inputs {
+    width: unset !important;
+    background-color: unset !important;
+    margin-top: -55px !important;
+    text-align: center; }
+    #homePage #intro .inputs input {
+      background-color: #80808069 !important;
+      border-radius: 5px !important;
+      margin-left: -75px !important;
+      width: 433px !important;
+      text-align: center !important; }
+    #homePage #intro .inputs button {
+      width: 296px !important;
+      margin-left: -47px !important;
+      width: 433px !important;
+      border-radius: 5px !important; }
+  #homePage .header {
+    background-color: #5e72e4 !important;
+    color: white !important; }
+    #homePage .header .navbar .collapse .navbar-nav .nav-item .nav-link {
+      padding: 15px 0px !important; }
+      #homePage .header .navbar .collapse .navbar-nav .nav-item .nav-link i {
+        position: absolute !important;
+        right: -70px !important;
+        transform: rotate(270deg) !important; }
+    #homePage .header .navbar .collapse .navbar-nav .nav-item .dropdown-menu {
+      margin-left: 0px !important;
+      background-color: #5e72e4 !important;
+      border: none !important;
+      color: white !important; }
+      #homePage .header .navbar .collapse .navbar-nav .nav-item .dropdown-menu .dropdown-item {
+        color: white !important; }
+        #homePage .header .navbar .collapse .navbar-nav .nav-item .dropdown-menu .dropdown-item .innermenu {
+          margin-left: 0px !important;
+          background-color: #5e72e4 !important;
+          border: none !important;
+          color: white !important; }
+    #homePage .header .navbar .btn {
+      display: none !important; }
+
+  #popularCategories .sliderWrapepr .item .imgitems1 {
+    left: 300px !important; }
+  #popularCategories .sliderWrapepr .item .imgitems2 {
+    left: 300px !important; }
+  #popularCategories .sliderWrapepr .item .imgitems3 {
+    left: 300px !important; }
+  #popularCategories .sliderWrapepr .item .imgitems4 {
+    left: 300px !important; }
+  #popularCategories .sliderWrapepr .item .imgitems5 {
+    left: 300px !important; }
+  #popularCategories .sliderWrapepr .item .imgitems6 {
+    left: 300px !important; }
+
+  #mostVisitedPlaces .myOwlCarusel .item .caferbar {
+    width: 698px !important; }
+
+  #amazingteam .teamheader p {
+    padding: 0px 39px !important; }
+  #amazingteam .teamprofile {
+    margin-bottom: 60px; }
+
+  #recentBlog .blogheading p {
+    padding: 0px 0px !important; }
+
+  #direclistfooter .footerlists {
+    margin-left: 35px !important; }
+  #direclistfooter .copyright p {
+    margin-left: 100px !important; }
+
+  #sideBarPage #listsection .mainListItem .listitem img {
+    max-width: 100% !important; }
+  #sideBarPage #listsection .mainListItem .listContent h4 {
+    top: 148px !important;
+    right: 23px !important; }
+  #sideBarPage #listsection .offerscard {
+    right: 0px !important;
+    left: -10px !important; }
+
+  #pricingPage .pricing .item1 {
+    width: 100% !important; }
+  #pricingPage .pricing .item2 {
+    width: 100% !important; }
+  #pricingPage .pricing .item3 {
+    width: 100% !important; }
+
+  #mylogin #login .content {
+    display: none !important; }
+  #mylogin #login .form .myform {
+    margin-bottom: 100px !important; }
+    #mylogin #login .form .myform span {
+      top: 63% !important;
+      margin-left: -115px; }
+    #mylogin #login .form .myform input {
+      width: 95% !important;
+      margin-left: 10px !important; }
+      #mylogin #login .form .myform input.checkb {
+        max-width: 22px !important; }
+    #mylogin #login .form .myform i {
+      left: 50px !important; }
+
+  #homePage .header .col-lg-12 .navbar .collapse .navbar-nav .nav-item .dropdown-menu .dropdown-item {
+    color: white !important; } }
+@media screen and (max-width: 768px) {
+  #sideBarPage #titleBar .breadcrumb {
+    top: 200px !important;
+    left: 0px !important;
+    right: 0px !important; }
+  #sideBarPage #listsection .mainitem .listitem img {
+    width: 515px !important;
+    height: 285px !important; }
+  #sideBarPage #listsection .mainSideBar {
+    padding-bottom: 430px !important; }
+    #sideBarPage #listsection .mainSideBar .rightside input {
+      width: 509px !important;
+      margin-left: 15px !important; }
+    #sideBarPage #listsection .mainSideBar .rightside i {
+      margin-right: -80px !important; }
+    #sideBarPage #listsection .mainSideBar .offerscard {
+      width: auto !important;
+      height: auto !important; }
+
+  #pricingPage #titleBar .breadcrumb {
+    top: 200px !important;
+    left: 0px !important;
+    right: 0px !important; }
+  #pricingPage #pricing .textpricing p {
+    padding: 0px 0px !important; }
+  #pricingPage #pricing .item1 {
+    width: auto !important;
+    margin-left: 0px !important;
+    margin-bottom: 40px !important; }
+  #pricingPage #pricing .item2 {
+    width: auto !important;
+    margin-bottom: 40px !important; }
+  #pricingPage #pricing .item3 {
+    width: auto !important;
+    margin-left: 0px !important; }
+
+  #blog #titleBar .breadcrumb {
+    top: 200px !important;
+    left: 0px !important;
+    right: 0px !important; }
+  #blog #blogList .popularPosts .posticons {
+    margin-bottom: 30px !important; }
+
+  #mylogin #login .content {
+    display: none !important; }
+  #mylogin #login .form .myform {
+    margin-bottom: 100px !important; }
+    #mylogin #login .form .myform span {
+      top: 63% !important; }
+    #mylogin #login .form .myform input {
+      width: 95% !important;
+      margin-left: 10px !important; }
+      #mylogin #login .form .myform input.checkb {
+        max-width: 22px !important; }
+    #mylogin #login .form .myform i {
+      left: 50px !important; }
+
+  #homePage #vacation .planvacation p {
+    padding: 0px 0px !important; }
+  #homePage #mostVisitedPlaces .myOwlCarusel .item img {
+    max-width: 100% !important; }
+  #homePage #mostVisitedPlaces .myOwlCarusel .item .caferbar {
+    width: 518px !important; }
+    #homePage #mostVisitedPlaces .myOwlCarusel .item .caferbar img {
+      width: 85px !important;
+      left: 43% !important; }
+  #homePage #popularCategories .sliderWrapepr .item .imgitems1 {
+    left: 200px !important; }
+  #homePage #popularCategories .sliderWrapepr .item .imgitems2 {
+    left: 200px !important; }
+  #homePage #popularCategories .sliderWrapepr .item .imgitems3 {
+    left: 200px !important; }
+  #homePage #popularCategories .sliderWrapepr .item .imgitems4 {
+    left: 200px !important; }
+  #homePage #popularCategories .sliderWrapepr .item .imgitems5 {
+    left: 200px !important; }
+  #homePage #popularCategories .sliderWrapepr .item .imgitems6 {
+    left: 200px !important; } }
+@media screen and (max-width: 576px) {
+  #homePage #popularCategories .sliderWrapepr .item .imgitems1 {
+    left: 130px !important;
+    margin-left: -35px;
+    left: 155px !important; }
+  #homePage #popularCategories .sliderWrapepr .item .imgitems2 {
+    left: 130px !important;
+    margin-left: -35px;
+    left: 155px !important; }
+  #homePage #popularCategories .sliderWrapepr .item .imgitems3 {
+    left: 130px !important;
+    margin-left: -35px;
+    left: 155px !important; }
+  #homePage #popularCategories .sliderWrapepr .item .imgitems4 {
+    left: 130px !important;
+    margin-left: -35px;
+    left: 155px !important; }
+  #homePage #popularCategories .sliderWrapepr .item .imgitems5 {
+    left: 130px !important;
+    margin-left: -35px;
+    left: 155px !important; }
+  #homePage #popularCategories .sliderWrapepr .item .imgitems6 {
+    left: 130px !important;
+    margin-left: -35px;
+    left: 155px !important; }
+
+  #homePage #mostVisitedPlaces .myOwlCarusel .item img {
+    max-width: 100% !important; }
+  #homePage #mostVisitedPlaces .myOwlCarusel .item .caferbar {
+    width: 535px !important; }
+    #homePage #mostVisitedPlaces .myOwlCarusel .item .caferbar img {
+      width: 85px !important;
+      left: 37% !important; }
+    #homePage #mostVisitedPlaces .myOwlCarusel .item .caferbar h5 {
+      margin-left: -63px !important; }
+    #homePage #mostVisitedPlaces .myOwlCarusel .item .caferbar p {
+      margin-left: -63px !important; }
+    #homePage #mostVisitedPlaces .myOwlCarusel .item .caferbar .open {
+      margin-right: 60px !important; }
+    #homePage #mostVisitedPlaces .myOwlCarusel .item .caferbar i {
+      right: 80px !important; }
+  #homePage #homePage #intro .inputs {
+    width: unset !important;
+    background-color: unset !important;
+    margin-top: -55px !important; }
+    #homePage #homePage #intro .inputs input {
+      background-color: #80808069 !important;
+      border-radius: 5px !important;
+      margin-left: -75px !important;
+      width: 433px !important;
+      text-align: center !important; }
+    #homePage #homePage #intro .inputs button {
+      width: 616px;
+      margin-left: 77px !important;
+      width: 296px !important; }
+  #homePage #homePage .header {
+    background-color: #5e72e4 !important;
+    color: white !important; }
+    #homePage #homePage .header .navbar .collapse .navbar-nav .nav-item .nav-link {
+      padding: 15px 0px !important; }
+      #homePage #homePage .header .navbar .collapse .navbar-nav .nav-item .nav-link i {
+        position: absolute !important;
+        right: -70px !important;
+        transform: rotate(270deg) !important; }
+    #homePage #homePage .header .navbar .collapse .navbar-nav .nav-item .dropdown-menu {
+      margin-left: 0px !important;
+      background-color: #5e72e4 !important;
+      border: none !important;
+      color: white !important; }
+      #homePage #homePage .header .navbar .collapse .navbar-nav .nav-item .dropdown-menu .dropdown-item {
+        color: white !important; }
+        #homePage #homePage .header .navbar .collapse .navbar-nav .nav-item .dropdown-menu .dropdown-item .innermenu {
+          margin-left: 0px !important;
+          background-color: #5e72e4 !important;
+          border: none !important;
+          color: white !important; }
+    #homePage #homePage .header .navbar .btn {
+      display: none !important; } }
+#pricingPage #pricing {
+  padding-bottom: 135px; }
+  #pricingPage #pricing .textpricing {
+    padding-top: 101px;
+    text-align: center;
+    padding-bottom: 75px; }
+    #pricingPage #pricing .textpricing p {
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 1.7;
+      color: #525f7f;
+      padding: 0px 184px; }
+  #pricingPage #pricing .item1 {
+    max-width: 100%;
+    border: 0.0625rem solid rgba(0, 0, 0, 0.05);
+    border-radius: 0.25rem; }
+    #pricingPage #pricing .item1 .top {
+      color: white;
+      background-color: #5e72e4 !important;
+      height: 200px;
+      text-align: center; }
+      #pricingPage #pricing .item1 .top h1 {
+        font-size: 32px;
+        font-weight: 700;
+        padding-top: 50px; }
+      #pricingPage #pricing .item1 .top p {
+        font-size: 16px;
+        padding: 0px 40px; }
+    #pricingPage #pricing .item1 .middlepart {
+      height: 90px;
+      text-align: center; }
+      #pricingPage #pricing .item1 .middlepart p {
+        padding-top: 27px;
+        font-size: 25px;
+        font-weight: 700;
+        color: #5e72e4; }
+    #pricingPage #pricing .item1 .pricinglist {
+      background-color: #f4f5f7 !important;
+      text-align: center; }
+      #pricingPage #pricing .item1 .pricinglist p {
+        color: #525f7f;
+        padding-bottom: 3px; }
+    #pricingPage #pricing .item1 .bottompart {
+      text-align: center;
+      padding-bottom: 24px; }
+      #pricingPage #pricing .item1 .bottompart button {
+        color: #5e72e4;
+        border: 1px solid #5e72e4;
+        outline: none;
+        padding: 10px 15px;
+        background-color: white;
+        font-size: 13px;
+        font-weight: 500;
+        border-radius: 5px; }
+  #pricingPage #pricing .item2 {
+    max-width: 100%;
+    border: 0.0625rem solid rgba(0, 0, 0, 0.05);
+    border-radius: 0.25rem; }
+    #pricingPage #pricing .item2 .top {
+      color: white;
+      background-color: #2dce89 !important;
+      height: 200px;
+      text-align: center; }
+      #pricingPage #pricing .item2 .top h1 {
+        font-size: 32px;
+        font-weight: 700;
+        padding-top: 50px; }
+      #pricingPage #pricing .item2 .top p {
+        font-size: 16px;
+        padding: 0px 40px; }
+    #pricingPage #pricing .item2 .middlepart {
+      height: 90px;
+      text-align: center; }
+      #pricingPage #pricing .item2 .middlepart p {
+        padding-top: 27px;
+        font-size: 25px;
+        font-weight: 700;
+        color: #2dce89; }
+    #pricingPage #pricing .item2 .pricinglist {
+      background-color: #f4f5f7 !important;
+      text-align: center; }
+      #pricingPage #pricing .item2 .pricinglist p {
+        color: #525f7f;
+        padding-bottom: 3px; }
+    #pricingPage #pricing .item2 .bottompart {
+      text-align: center;
+      padding-bottom: 24px; }
+      #pricingPage #pricing .item2 .bottompart button {
+        color: #2dce89;
+        border: 1px solid #2dce89;
+        outline: none;
+        padding: 10px 15px;
+        background-color: white;
+        font-size: 13px;
+        font-weight: 500;
+        border-radius: 5px; }
+  #pricingPage #pricing .item3 {
+    max-width: 100%;
+    border: 0.0625rem solid rgba(0, 0, 0, 0.05);
+    border-radius: 0.25rem; }
+    #pricingPage #pricing .item3 .top {
+      color: white;
+      background-color: #11cdef !important;
+      height: 200px;
+      text-align: center; }
+      #pricingPage #pricing .item3 .top h1 {
+        font-size: 32px;
+        font-weight: 700;
+        padding-top: 50px; }
+      #pricingPage #pricing .item3 .top p {
+        font-size: 16px;
+        padding: 0px 40px; }
+    #pricingPage #pricing .item3 .middlepart {
+      height: 90px;
+      text-align: center; }
+      #pricingPage #pricing .item3 .middlepart p {
+        padding-top: 27px;
+        font-size: 25px;
+        font-weight: 700;
+        color: #11cdef; }
+    #pricingPage #pricing .item3 .pricinglist {
+      background-color: #f4f5f7 !important;
+      text-align: center; }
+      #pricingPage #pricing .item3 .pricinglist p {
+        color: #525f7f;
+        padding-bottom: 3px; }
+    #pricingPage #pricing .item3 .bottompart {
+      text-align: center;
+      padding-bottom: 24px; }
+      #pricingPage #pricing .item3 .bottompart button {
+        color: #11cdef;
+        border: 1px solid #11cdef;
+        outline: none;
+        padding: 10px 15px;
+        background-color: white;
+        font-size: 13px;
+        font-weight: 500;
+        border-radius: 5px; }
+
+#blog #blogList {
+  padding-bottom: 100px;
+  padding-top: 100px;
+  background-color: #f4f5f7 !important; }
+  #blog #blogList .mainBlogPage .hotelBudgets {
+    margin-bottom: 40px;
+    box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07) !important; }
+    #blog #blogList .mainBlogPage .hotelBudgets .image img {
+      max-width: 100%; }
+    #blog #blogList .mainBlogPage .hotelBudgets .budgets {
+      padding: 45px 0px;
+      background-color: white; }
+      #blog #blogList .mainBlogPage .hotelBudgets .budgets h3 {
+        color: #5e72e4;
+        font-size: 20px;
+        font-weight: 700;
+        margin-left: 40px; }
+      #blog #blogList .mainBlogPage .hotelBudgets .budgets span {
+        color: #5e72e4;
+        margin-left: 40px; }
+      #blog #blogList .mainBlogPage .hotelBudgets .budgets p {
+        margin-left: 40px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.7;
+        color: #525f7f;
+        margin-top: 16px; }
+      #blog #blogList .mainBlogPage .hotelBudgets .budgets button {
+        margin-left: 40px;
+        font-weight: 400;
+        font-size: 14px;
+        color: #fff;
+        background-color: #5e72e4;
+        border-color: #5e72e4;
+        box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+        padding: 10px 20px;
+        padding: 10px 16px;
+        border-radius: 4px;
+        border: none; }
+  #blog #blogList .popularPosts .search {
+    margin-bottom: 20px; }
+    #blog #blogList .popularPosts .search i {
+      position: absolute;
+      top: 19px;
+      left: 25px;
+      color: lightgray; }
+      #blog #blogList .popularPosts .search i::after {
+        content: "";
+        position: absolute;
+        top: -19px;
+        left: 19px;
+        width: 1px;
+        height: 47px;
+        background-color: #dcd4d4; }
+    #blog #blogList .popularPosts .search input {
+      padding: 10px 30px; }
+  #blog #blogList .popularPosts .headingpost h1 {
+    margin-bottom: 25px;
+    font-size: 22px;
+    line-height: 1.5;
+    color: #32325d;
+    font-weight: 700; }
+  #blog #blogList .popularPosts .posts .postimg {
+    margin-bottom: 55px; }
+    #blog #blogList .popularPosts .posts .postimg img {
+      max-width: 39%;
+      display: inline-block;
+      border-radius: 5px;
+      height: 95px; }
+  #blog #blogList .popularPosts .posts .posttext {
+    position: absolute;
+    left: 126px;
+    top: 0; }
+    #blog #blogList .popularPosts .posts .posttext p {
+      color: #333;
+      font-size: 15px;
+      line-height: 20px;
+      font-weight: 700 !important; }
+    #blog #blogList .popularPosts .posts .posttext span {
+      color: #888;
+      font-weight: 400;
+      line-height: 22px;
+      margin: 0;
+      display: block;
+      font-weight: 600;
+      font-size: 14px; }
+  #blog #blogList .popularPosts .line::after {
+    content: "";
+    position: absolute;
+    top: -26px;
+    left: 16px;
+    width: 230px;
+    height: 1px;
+    background-color: #c1baba; }
+  #blog #blogList .popularPosts .followus h4 {
+    margin-top: 0;
+    margin-bottom: 25px;
+    font-size: 22px;
+    color: #32325d;
+    font-weight: 700; }
+  #blog #blogList .popularPosts .posticons .twitt {
+    color: #fff;
+    background-color: #1da1f2;
+    border-color: #1da1f2;
+    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+    padding: 11px;
+    border-radius: 5px;
+    cursor: pointer; }
+  #blog #blogList .popularPosts .posticons .fb {
+    padding: 11px;
+    background-color: #3b5999;
+    border-color: #3b5999;
+    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer; }
+  #blog #blogList .popularPosts .posticons .drbbl {
+    padding: 11px;
+    background-color: #ea4c89;
+    border-color: #ea4c89;
+    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer; }
+  #blog #blogList .popularPosts .posticons .gh {
+    padding: 11px;
+    background-color: #222;
+    border-color: #222;
+    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer; }
+
+#mylogin #login .col-lg-4 .content .button1 {
+  padding: 12px 17px;
+  border-radius: 5px;
+  outline: none;
+  font-size: 16px; }
+#mylogin #login .col-lg-4 {
+  padding-right: 0;
+  padding-left: 0; }
+  #mylogin #login .col-lg-4 .content {
+    background-image: url(../img/bg-login.jpg);
+    height: 700px;
+    text-align: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+    #mylogin #login .col-lg-4 .content img {
+      padding-top: 250px;
+      margin-bottom: 30px;
+      font-size: 25px; }
+    #mylogin #login .col-lg-4 .content p {
+      color: white; }
+    #mylogin #login .col-lg-4 .content h4 {
+      color: white; }
+    #mylogin #login .col-lg-4 .content .button1 {
+      color: #fff;
+      background-color: #2dce89;
+      border-color: #2dce89;
+      box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+      margin-top: 15px;
+      color: white;
+      border: none;
+      font-size: 13px;
+      font-weight: 700; }
+#mylogin #login .formtext {
+  margin-top: 101px;
+  text-align: center; }
+  #mylogin #login .formtext h1 {
+    line-height: 1.5;
+    color: #32325d;
+    font-size: 32px;
+    font-weight: 700; }
+#mylogin #login .form {
+  box-shadow: 0 1px 3px rgba(50, 50, 93, 0.15), 0 1px 0 rgba(0, 0, 0, 0.02); }
+  #mylogin #login .form .signinwith {
+    text-align: center; }
+    #mylogin #login .form .signinwith p {
+      line-height: 1.5;
+      color: #32325d;
+      font-weight: bold;
+      padding-top: 30px; }
+    #mylogin #login .form .signinwith a {
+      text-decoration: none;
+      background-color: #fff;
+      border-color: #fff;
+      box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+      padding: 10px 24px;
+      border-radius: 6px;
+      font-size: 12px;
+      font-weight: bold;
+      letter-spacing: 1px;
+      color: #5e72e4; }
+      #mylogin #login .form .signinwith a i {
+        font-size: 14px;
+        margin-right: 6px; }
+  #mylogin #login .form .myform {
+    text-align: center;
+    background-color: #d6d6d62e;
+    height: 320px; }
+    #mylogin #login .form .myform p {
+      margin-top: 60px;
+      line-height: 1.5;
+      color: #32325d;
+      font-weight: bold;
+      padding-top: 50px; }
+    #mylogin #login .form .myform .fb {
+      position: absolute;
+      top: 260px;
+      left: 93px;
+      color: #adb5bd; }
+    #mylogin #login .form .myform .gl {
+      position: absolute;
+      top: 315px;
+      left: 93px;
+      color: #adb5bd; }
+    #mylogin #login .form .myform input {
+      display: block;
+      padding: 8px 53px;
+      margin-left: 54px;
+      margin-bottom: 20px;
+      box-shadow: 0 1px 3px rgba(50, 50, 93, 0.15), 0 1px 0 rgba(0, 0, 0, 0.02);
+      border: 0;
+      transition: box-shadow 0.15s ease; }
+    #mylogin #login .form .myform .checkb {
+      width: 22px;
+      height: 19px; }
+    #mylogin #login .form .myform span {
+      display: block;
+      position: absolute;
+      top: 74%;
+      left: 24%;
+      color: #525f7f;
+      font-size: 13px; }
+    #mylogin #login .form .myform button {
+      color: #fff;
+      background-color: #5e72e4;
+      border-color: #5e72e4;
+      box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      font-weight: bold; }
+
+/*# sourceMappingURL=style.css.map */
